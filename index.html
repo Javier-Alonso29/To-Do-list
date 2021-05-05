@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tool to manage tasks with time"/>
+    <meta name="author" content="Carlos Javier Alonso Caldera" />
+    <!-- Font Awersome -->
+    <script src="https://kit.fontawesome.com/e5112ef5e2.js" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <title>To-Do list</title>
+</head>
+<body>
+
+    <div id="modalid" class="modal">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Updating task</h2>
+            </div>
+        <div class="modal-body">
+            <input type="text" id="input_update_task">
+            <a id="btn-update-task" class="btn-success">Update</a>
+        </div>
+        </div>
+  
+    </div>
+
+    <div class="container">
+        
+        <h1>My To-Do List</h1>
+        
+        <div id="inputTask">
+            <a id="btn-addTask">Add a task</a>
+            <input type="input" placeholder="Do something ..." required id="inputtask" name="inputtask"/>
+        </div>
+
+        <div id="boxtable">
+            <table id="table">
+            </table>
+        </div>
+
+        <div id="box-time">
+            <div id="time">
+                <span id="timeM">0</span>:<span id="timeS">0</span>
+            </div>
+        </div>
+        
+       
+    </div>
+
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+    <!-- Funciones -->
+    <script src="js/funciones.js"></script>
+
+</body>
+</html>
