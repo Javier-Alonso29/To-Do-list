@@ -1,201 +1,197 @@
-*{
-    font-family: 'Nunito Sans', sans-serif;
-    list-style: none;
+* {
+  font-family: "Nunito Sans", sans-serif;
+  list-style: none;
 }
 
-.container{
-    text-align: center;
-    margin-top: 200px;
+.container {
+  text-align: center;
+  margin-top: 200px;
 }
 
-.container h1{
-    font-size: 60px;
+.container h1 {
+  font-size: 60px;
 }
 
-#inputTask{
-    margin-top: 60px;
-    justify-content: center;
-    margin-bottom: 35px;
+#inputTask {
+  margin-top: 60px;
+  justify-content: center;
+  margin-bottom: 35px;
 }
 
-#inputTask a{
-    text-decoration: none;
-    background-color: #6C63FF;
-    color: rgb(245, 246, 247);
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 5px;
-    width: 180px;
-    font-size: 18px;
-    cursor: pointer;
+#inputTask a {
+  text-decoration: none;
+  background-color: #6c63ff;
+  color: rgb(245, 246, 247);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  width: 180px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-#inputTask input{
-    font-family: inherit;
-    width: 40%;
-    border: 0;
-    border-bottom: 2px solid;
-    outline: 0;
-    font-size: 1.3rem;
-    padding: 7px 0;
-    background: transparent;
-    margin-left: 10px;
+#inputTask input {
+  font-family: inherit;
+  width: 40%;
+  border: 0;
+  border-bottom: 2px solid;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+  margin-left: 10px;
 }
 
-#boxtable{
-    width: 60%;
-    /* background: #ccc; */
-    margin: 0 auto;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: justify;
+#boxtable {
+  width: 60%;
+  /* background: #ccc; */
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: justify;
 }
 
-#boxtable table .th-information{
-    border-bottom: .5px solid;
-    outline: 0;
-    font-size: 22px;
-    width: 480px;
-    height: auto;
-    word-wrap: break-word;
+#boxtable table .th-information {
+  border-bottom: 0.5px solid;
+  outline: 0;
+  font-size: 22px;
+  width: 480px;
+  height: auto;
+  word-wrap: break-word;
 }
 
-#boxtable table{
-    border-spacing: 10px 40px;
+#boxtable table {
+  border-spacing: 10px 40px;
 }
 
 #boxtable table .th-edit,
-.th-action, 
+.th-action,
 .th-timer,
-.th-quit{
-    padding-left: 25px;
+.th-quit {
+  padding-left: 25px;
 }
 
-.btn-a{
-    padding: .8em;
-    border-radius: 5px;
-    cursor: pointer;
+.btn-a {
+  padding: 0.8em;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.btn-success{
-    background: #7bed9f;
+.btn-success {
+  background: #7bed9f;
 }
 
-.btn-red{
-    background: #ff4757;
+.btn-red {
+  background: #ff4757;
 }
 
-.btn-blue{
-    background: #70a1ff;
+.btn-blue {
+  background: #70a1ff;
 }
 
-.running{
-    background:#25CCF7;
-    color: #fefefe;
+.running {
+  background: #25ccf7;
+  color: #fefefe;
 }
 
-.disable{
-    pointer-events: none;
-    background: #2f3c49a4;
-
+.disable {
+  pointer-events: none;
+  background: #2f3c49a4;
 }
-
 
 .modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    padding-top: 250px;
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.5);
-  }
-  
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 250px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #6C63FF;
-    width: 25%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
-  }
-  
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #6c63ff;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
 
 .close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
-  
+
 .close:hover,
 .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
-  
+
 .modal-header {
-    padding: 2px 16px;
-    background-color: #6C63FF;
-    color: white;
-    text-align: center;
+  padding: 2px 16px;
+  background-color: #6c63ff;
+  color: white;
+  text-align: center;
 }
-  
+
 .modal-body {
-    padding: 10px 16px;
-    font-size: 18px;
-    
+  padding: 10px 16px;
+  font-size: 18px;
 }
 
-.modal-body input{
-    font-family: inherit;
-    width: 99%;
-    border: 0;
-    border-bottom: 2px solid;
-    outline: 0;
-    font-size: 1.3rem;
-    padding: 7px 0;
-    background: transparent;
-    margin: 8px;
-    word-wrap: break-word;
+.modal-body input {
+  font-family: inherit;
+  width: 99%;
+  border: 0;
+  border-bottom: 2px solid;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+  margin: 8px;
+  word-wrap: break-word;
 }
 
-.modal-body #btn-update-task{
-    display: block;
-    width: 60%;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-    padding: 6px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
+.modal-body #btn-update-task {
+  display: block;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-#box-time{
-    display: flex;
-    justify-content: center;
+#box-time {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
-#time{
-    text-align: center;
-    width: 40px;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: larger;
-    margin-top: 30px;
-    background: #eb3b5a;
-    color: #fefefe;
-    font-weight: bold;
+#time {
+  text-align: center;
+  width: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: larger;
+  margin-top: 30px;
+  background: #eb3b5a;
+  color: #fefefe;
+  font-weight: bold;
 }
