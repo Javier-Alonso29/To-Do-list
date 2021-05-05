@@ -115,7 +115,7 @@ function run(task) {
 
     s.text(contador_sec);
     contador_sec++;
-  }, 100);
+  }, 1000);
 }
 
 /**
